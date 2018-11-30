@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      <input type="text" onchange="storedValues(this)" name="firstNum" value="">
+      <select class="selector" onchange="storedValues(this)" name="operator">
+        <option value="subtract">minus</option>
+        <option value="multiply">multiply</option>
+        <option value="divide">divide</option>
+        <option value="add">add</option>
+      </select>
+      <input type="text" onchange="storedValues(this)" name="secNum" value="">
+      <button type="button" onclick="calculate()"name="button">submit</button>
+    </div>
+
+    <div class="answer">
+
+    </div>
+
+    <script src="./calculatorClass.js" type="text/javascript"></script>
+  </body>
+</html>
